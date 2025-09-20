@@ -28,6 +28,8 @@ app.add_middleware(
 # --- Routers ---
 app.include_router(users.router)
 app.include_router(events.router)
+app.include_router(payments.router)
+
 
 # The other routers will be included as we build them
 # app.include_router(events.router)
